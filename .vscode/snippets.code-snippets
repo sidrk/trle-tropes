@@ -23,14 +23,14 @@
       "\"name\": \"${1}\",",
       "\"game\": \"$2\",",
       "\"tropes\": [$3]",
-      "}"
+      "},"
     ],
     "description": "Add a level description"
   },
   "Trope": {
     "scope": "json",
     "prefix": "trope",
-    "body": ["\"$1\": {", "\"name\": \"$1\",", "\"description\": \"$2\"", "}"],
+    "body": ["\"$1\": {", "\"name\": \"$1\",", "\"description\": \"$2\"", "},"],
     "description": "Add a trope description"
   }
 }
