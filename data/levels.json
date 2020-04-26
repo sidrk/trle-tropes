@@ -1,4 +1,95 @@
 {
+  "the-great-wall": {
+    "name": "The Great Wall",
+    "game": "TR2",
+    "tropes": []
+  },
+  "venice": {
+    "name": "Venice",
+    "game": "TR2",
+    "tropes": []
+  },
+  "bartolis-hideout": {
+    "name": "Bartoli's Hideout",
+    "game": "TR2",
+    "tropes": []
+  },
+  "opera-house": {
+    "name": "Opera House",
+    "game": "TR2",
+    "tropes": []
+  },
+  "offshore-rig": {
+    "name": "Offshore Rig",
+    "game": "TR2",
+    "tropes": []
+  },
+  "diving-area": {
+    "name": "Diving Area",
+    "game": "TR2",
+    "tropes": []
+  },
+  "40-fathoms": {
+    "name": "40 Fathoms",
+    "game": "TR2",
+    "tropes": []
+  },
+  "wreck-of-the-maria-doria": {
+    "name": "Wreck of the Maria Doria",
+    "game": "TR2",
+    "tropes": []
+  },
+  "living-quarters": {
+    "name": "Living Quarters",
+    "game": "TR2",
+    "tropes": []
+  },
+  "the-deck": {
+    "name": "The Deck",
+    "game": "TR2",
+    "tropes": []
+  },
+  "tibetan-foothills": {
+    "name": "Tibetan Foothills",
+    "game": "TR2",
+    "tropes": []
+  },
+
+  "barkhang-monastery": {
+    "name": "Barkhang Monastery",
+    "game": "TR2",
+    "tropes": []
+  },
+  "catacombs-of-the-talion": {
+    "name": "Catacombs of the Talion",
+    "game": "TR2",
+    "tropes": []
+  },
+  "ice-palace": {
+    "name": "Ice Palace",
+    "game": "TR2",
+    "tropes": []
+  },
+  "temple-of-xian": {
+    "name": "Temple of Xian",
+    "game": "TR2",
+    "tropes": []
+  },
+  "floating-islands": {
+    "name": "Floating Islands",
+    "game": "TR2",
+    "tropes": []
+  },
+  "the-dragons-lair": {
+    "name": "The Dragon's Lair",
+    "game": "TR2",
+    "tropes": []
+  },
+  "home-sweet-home": {
+    "name": "Home Sweet Home",
+    "game": "TR2",
+    "tropes": []
+  },
   "jungle": {
     "name": "Jungle",
     "game": "TR3",
@@ -6,6 +97,91 @@
   },
   "temple-ruins": {
     "name": "Temple Ruins",
+    "game": "TR3",
+    "tropes": []
+  },
+  "the-river-ganges": {
+    "name": "The River Ganges",
+    "game": "TR3",
+    "tropes": []
+  },
+  "caves-of-kaliya": {
+    "name": "Caves Of Kaliya",
+    "game": "TR3",
+    "tropes": []
+  },
+  "thames-wharf": {
+    "name": "Thames Wharf",
+    "game": "TR3",
+    "tropes": []
+  },
+  "aldwych": {
+    "name": "Aldwych",
+    "game": "TR3",
+    "tropes": []
+  },
+  "luds-gate": {
+    "name": "Lud's Gate",
+    "game": "TR3",
+    "tropes": []
+  },
+  "city": {
+    "name": "City",
+    "game": "TR3",
+    "tropes": []
+  },
+  "nevada-desert": {
+    "name": "Nevada Desert",
+    "game": "TR3",
+    "tropes": []
+  },
+  "high-security-compound": {
+    "name": "High Security Compound",
+    "game": "TR3",
+    "tropes": []
+  },
+  "area-51": {
+    "name": "Area 51",
+    "game": "TR3",
+    "tropes": []
+  },
+  "coastal-village": {
+    "name": "Coastal Village",
+    "game": "TR3",
+    "tropes": []
+  },
+  "crash-site": {
+    "name": "Crash Site",
+    "game": "TR3",
+    "tropes": []
+  },
+  "madubu-gorge": {
+    "name": "Madubu Gorge",
+    "game": "TR3",
+    "tropes": []
+  },
+  "temple-of-puna": {
+    "name": "Temple Of Puna",
+    "game": "TR3",
+    "tropes": []
+  },
+  "antarctica": {
+    "name": "Antarctica",
+    "game": "TR3",
+    "tropes": []
+  },
+  "rx-tech-mines": {
+    "name": "RX-Tech Mines",
+    "game": "TR3",
+    "tropes": []
+  },
+  "lost-city-of-tinnos": {
+    "name": "Lost City Of Tinnos",
+    "game": "TR3",
+    "tropes": []
+  },
+  "meteorite-cavern": {
+    "name": "Meteorite Cavern",
     "game": "TR3",
     "tropes": []
   }
