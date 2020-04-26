@@ -1,10 +1,26 @@
 {
-  "test": {
-    "name": "Test Trope",
-    "description": "This is a test trope."
+  "ascending": {
+    "name": "Ascending",
+    "description": "You go vertically upwards as your progress throughout the level (stairs, ladders, etc.)."
   },
-  "test2": {
-    "name": "Test Trope 2",
-    "description": "This is a test trope 2."
+  "descending": {
+    "name": "Descending",
+    "description": "You go vertically downwards as your progress throughout the level (stairs, slopes, long drops, waterfalls, etc.)."
+  },
+  "enemies-await-your-return": {
+    "name": "Enemies Await Your Return",
+    "description": "Return to a previously explored area to find new enemies to fight (often triggered after finding an essential pickup)."
+  },
+  "over-the-ceiling": {
+    "name": "Over the Ceiling",
+    "description": "Revisit the same area and traveling across the ceiling instead. This can include holes. so if you fall back to the floor, you have to make your way to the ceiling again."
+  },
+  "st-francis-folly": {
+    "name": "St. Francis Folly",
+    "description": "Explore a series of areas that hold pieces of a puzzle leading up to a final room (e.g. a set of four puzzle holes that open a single door when completed)."
+  },
+  "swept-by-the-current": {
+    "name": "Swept by the Current",
+    "description": "The water has a strong current, and falling into the water causes you to lose progress."
   }
 }

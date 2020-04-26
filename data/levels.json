@@ -2,10 +2,11 @@
   "jungle": {
     "name": "Jungle",
     "game": "TR3",
-    "tropes": [
-      "a",
-      "test",
-      "c"
-    ]
+    "tropes": ["swept-by-the-current"]
+  },
+  "temple-ruins": {
+    "name": "Temple Ruins",
+    "game": "TR3",
+    "tropes": []
   }
 }
