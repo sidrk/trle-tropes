@@ -1,0 +1,10 @@
+{
+  "test": {
+    "name": "Test Trope",
+    "description": "This is a test trope."
+  },
+  "test2": {
+    "name": "Test Trope 2",
+    "description": "This is a test trope 2."
+  }
+}
