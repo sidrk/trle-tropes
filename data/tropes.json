@@ -22,5 +22,33 @@
   "swept-by-the-current": {
     "name": "Swept by the Current",
     "description": "The water has a strong current, and falling into the water causes you to lose progress."
+  },
+  "bigger-on-the-inside": {
+    "name": "Bigger On The Inside",
+    "description": "Enter a closed section to find out it's much bigger on the inside."
+  },
+  "mandatory-damage": {
+    "name": "Mandatory Damage",
+    "description": "The player cannot complete the level without taking some damage to clear a certain section (e.g. a long fall). A medipack might be placed right before such a section."
+  },
+  "unreachable-pickup": {
+    "name": "Unreachable Pickup",
+    "description": "There's a fancy looking pickup in plain sight but there's no way to actually reach it."
+  },
+  "look-at-the-ceiling": {
+    "name": "Look at the Ceiling",
+    "description": "The hint to progressing is hidden in the ceiling — a clue to a puzzle, a secret crawlspace, etc, and without using the Look button you're unlikely to find it."
+  },
+  "lose-your-weapons": {
+    "name": "Lose Your Weapons",
+    "description": "Start the level without your weapons and/or ammo."
+  },
+  "came-here-by-accident": {
+    "name": "Came Here By Accident",
+    "description": ""
+  },
+  "dont-kill-me-just-yet": {
+    "name": "Don't Kill Me Just Yet",
+    "description": "An enemy triggers something in the level (e.g. open a door to a secret) but they can be killed before having the chance to."
   }
 }
