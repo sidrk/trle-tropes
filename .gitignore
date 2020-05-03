@@ -1,1 +1,5 @@
 node_modules
+
+# # Sourcemaps are enabled for now - find a more elegant solution to automate build processes?
+# build/src/**/*.d.ts
+# build/src/**/*.js.map
