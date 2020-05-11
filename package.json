@@ -4,14 +4,16 @@
   "description": "A list of helpful tropes in Tomb Raider custom levels, meant to be used as a reference for level building",
   "main": "src/index.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "check": "gts check",
     "clean": "gts clean",
     "compile": "tsc",
+    "css-build": "node-sass scss/main.scss build/css/main.css",
+    "css-watch": "npm run css-build -- --watch",
     "fix": "gts fix",
+    "posttest": "npm.cmd run check",
     "prepare": "npm.cmd run compile",
     "pretest": "npm.cmd run compile",
-    "posttest": "npm.cmd run check"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -28,8 +30,10 @@
   "homepage": "https://github.com/sidrk/trle-tropes#readme",
   "dependencies": {},
   "devDependencies": {
+    "@types/node": "^10.0.3",
+    "bulma": "^0.8.2",
     "gts": "^2.0.0",
-    "typescript": "~3.8.0",
-    "@types/node": "^10.0.3"
+    "node-sass": "^4.14.1",
+    "typescript": "~3.8.0"
   }
 }
