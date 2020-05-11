@@ -1,9 +1,12 @@
+import {Trope} from './trope';
+import {Level} from './level';
+
 function listTropes(json: any) {
   const tropesList = document.getElementById('tropes-list');
 
   // json.sort()
   for (const tropeName in json) {
-    const trope = json[tropeName];
+    const trope: Trope = json[tropeName];
     const description = trope.description;
     const name = trope.name;
     console.log(trope);
@@ -24,7 +27,7 @@ function listTropes(json: any) {
 function listLevels(json: any) {
   const levelsList = document.getElementById('levels-list');
   for (const levelName in json) {
-    const level = json[levelName];
+    const level: Level = json[levelName];
     const name = level.name;
     console.log(level);
 
