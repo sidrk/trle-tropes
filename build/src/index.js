@@ -1,4 +1,5 @@
 "use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 function listTropes(json) {
     const tropesList = document.getElementById('tropes-list');
     // json.sort()
@@ -6,7 +7,7 @@ function listTropes(json) {
         const trope = json[tropeName];
         const description = trope.description;
         const name = trope.name;
-        console.log(trope);
+        // console.log(trope);
         // Add the trope to the list
         const li = document.createElement('li');
         const liName = document.createElement('div');
@@ -23,11 +24,18 @@ function listLevels(json) {
     for (const levelName in json) {
         const level = json[levelName];
         const name = level.name;
-        console.log(level);
+        // console.log(level);
         // Add the level to the list
         const li = document.createElement('li');
         const liName = document.createElement('div');
         liName.innerHTML = name;
+        // const tropes: Trope[] = [];
+        for (const trope of level.tropes) {
+            const tropeBadge = document.createElement('span');
+            tropeBadge.className = 'tag';
+            tropeBadge.innerText = trope.name;
+            liName.appendChild(tropeBadge);
+        }
         li.appendChild(liName);
         levelsList.appendChild(li);
     }

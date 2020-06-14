@@ -9,7 +9,7 @@ function listTropes(json: any) {
     const trope: Trope = json[tropeName];
     const description = trope.description;
     const name = trope.name;
-    console.log(trope);
+    // console.log(trope);
 
     // Add the trope to the list
     const li = document.createElement('li');
@@ -29,12 +29,21 @@ function listLevels(json: any) {
   for (const levelName in json) {
     const level: Level = json[levelName];
     const name = level.name;
-    console.log(level);
+    // console.log(level);
 
     // Add the level to the list
     const li = document.createElement('li');
     const liName = document.createElement('div');
     liName.innerHTML = name;
+
+    // const tropes: Trope[] = [];
+    for (const trope of level.tropes) {
+      const tropeBadge = document.createElement('span');
+      tropeBadge.className = 'tag';
+      tropeBadge.innerText = trope.name;
+      liName.appendChild(tropeBadge);
+    }
+
     li.appendChild(liName);
 
     levelsList!.appendChild(li);
